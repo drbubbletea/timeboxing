@@ -8,7 +8,11 @@
     </parent>
 
     <artifactId>domain-dal</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>domain-dal-mariadb</module>
+    </modules>
 
     <name>domain-dal</name>
 
